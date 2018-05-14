@@ -20,7 +20,7 @@ Devise.setup do |config|
   # with default "from" parameter.
 
 #commented out lone below becasue app wouldnt deploy to heroku
-  #config.mailer_sender = 'no-reply@' + Rails.application.secrets.domain_name
+  config.mailer_sender = 'no-reply@' + Rails.application.secrets.domain_name
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
